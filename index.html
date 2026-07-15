@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SAY BOI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+
+    background:#090909;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+    overflow:hidden;
+
+}
+
+/* Флаг */
+
+.flag{
+
+    position:absolute;
+
+    width:900px;
+
+    opacity:0.08;
+
+    z-index:0;
+
+}
+
+/* Контейнер */
+
+.container{
+
+    position:relative;
+
+    z-index:1;
+
+    width:360px;
+
+    text-align:center;
+
+}
+
+/* Логотип */
+
+.logo{
+
+    width:80px;
+    height:80px;
+
+    border-radius:50%;
+
+    background:#181818;
+
+    border:1px solid #2a2a2a;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    font-size:28px;
+    font-weight:700;
+
+}
+
+/* Заголовок */
+
+h1{
+
+    margin-top:30px;
+    font-size:34px;
+
+}
+
+p{
+
+    margin-top:10px;
+
+    color:#9b9b9b;
+
+    line-height:1.6;
+
+}
+
+/* Кнопки */
+
+button{
+
+    width:100%;
+
+    height:58px;
+
+    margin-top:18px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#181818;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#242424;
+
+    transform:scale(1.02);
+
+}
+
+.back{
+
+    background:transparent;
+
+    border:1px solid #2a2a2a;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<img
+class="flag"
+src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+>
+
+<div class="container">
+
+<div class="logo">
+SB
+</div>
+
+<h1>SAY BOI</h1>
+
+<p>
+Learn real English.<br>
+Speak naturally.
+</p>
+
+<button>
+Buy Course →
+</button>
+
+<button class="back">
+Back
+</button>
+
+</div>
+
+</body>
+</html>
